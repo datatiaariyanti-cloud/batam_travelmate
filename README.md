@@ -523,7 +523,7 @@
                             
                             <div class="border-t border-gray-700 pt-3 space-y-1">
                                 <div class="flex justify-between items-baseline">
-                                    <span class="font-semibold text-white">Total Harga (IDR):</span>
+                                    <span class="font-semibold text-white">Total Price (IDR):</span>
                                     <span id="summaryTotalIDR" class="text-xl font-bold font-serif-title text-terracotta">IDR 2,000,000</span>
                                 </div>
                                 <div class="flex justify-between text-xs text-gray-400">
@@ -539,7 +539,7 @@
                             <!-- Rincian Transfer Di Awal (DP 30%) -->
                             <div class="bg-gray-800/90 p-4 rounded-xl border border-terracotta/40 space-y-2 mt-4">
                                 <div class="text-xs font-bold text-terracotta uppercase tracking-wider flex items-center gap-1.5">
-                                    <i class="fa-solid fa-wallet"></i> Transfer Di Awal (DP 30% Deposit)
+                                    <i class="fa-solid fa-wallet"></i> Upfront Payment (30% Deposit)
                                 </div>
                                 <div class="text-xs text-gray-300 space-y-1">
                                     <div class="flex justify-between">
@@ -731,21 +731,21 @@
             const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
 
             const message = 
-`*[PEMESANAN TOUR - BATAM TRAVELMATE]*\n` +
+`*[TOUR BOOKING - BATAM TRAVELMATE]*\n` +
 `----------------------------------------\n` +
-`*DATA PEMESAN:* \n` +
-`• Tanggal Reservasi: *${formattedDate}*\n` +
-`• Nama Lengkap: ${name}\n` +
+`*ORDERER DETAILS:* \n` +
+`• Reservation Date: *${formattedDate}*\n` +
+`• Full Name: ${name}\n` +
 `• No. Paspor: ${passport}\n` +
-`• Kewarganegaraan: ${nationality}\n` +
+`• Nationality: ${nationality}\n` +
 `• No. WhatsApp: ${whatsapp}\n` +
-`• Jumlah Peserta: ${pax} Pax\n` +
-`• Lokasi Penjemputan: ${pickup}\n` +
-`• Kontak Darurat: ${emergency || '-'}\n` +
-`• Catatan Khusus: ${notes || '-'}\n\n` +
-`*RINCIAN BIAYA & TOTAL:* \n` +
-`• Total Paket: IDR ${totalIDR.toLocaleString('id-ID')} (~SGD ${totalSGD})\n\n` +
-`*INFO TRANSFER DP DI AWAL (30%):*\n` +
+`• Total Pax: ${pax} Pax\n` +
+`• Pick-up Location: ${pickup}\n` +
+`• Emergency Contact: ${emergency || '-'}\n` +
+`• Special Note: ${notes || '-'}\n\n` +
+`*COST BREAKDOWN & TOTAL:* \n` +
+`• Total Packages: IDR ${totalIDR.toLocaleString('id-ID')} (~SGD ${totalSGD})\n\n` +
+`*INFORMATION REGARDING INITIAL DOWN PAYMENT TRANSFER (30%):*\n` +
 `• DP Rupiah (IDR): *IDR ${dpIDR.toLocaleString('id-ID')}*\n` +
 `• DP Dollar SG (SGD): *SGD ${dpSGD}*\n` +
 `• DP Ringgit MY (MYR): *MYR ${dpMYR}*\n` +
