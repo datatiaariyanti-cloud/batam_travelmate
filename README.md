@@ -509,7 +509,7 @@
 
                         <div class="space-y-3 text-sm text-gray-300">
                             <div class="flex justify-between">
-                                <span>Tanggal Tour:</span>
+                                <span>Tour Date:</span>
                                 <span id="summaryDateText" class="font-semibold text-terracotta">Belum Dipilih</span>
                             </div>
                             <div class="flex justify-between">
@@ -517,7 +517,7 @@
                                 <span>IDR 1,000,000</span>
                             </div>
                             <div class="flex justify-between">
-                                <span>Jumlah Tamu:</span>
+                                <span>Number of Guests:</span>
                                 <span id="summaryPaxText" class="font-semibold text-white">2 Pax</span>
                             </div>
                             
@@ -527,11 +527,11 @@
                                     <span id="summaryTotalIDR" class="text-xl font-bold font-serif-title text-terracotta">IDR 2,000,000</span>
                                 </div>
                                 <div class="flex justify-between text-xs text-gray-400">
-                                    <span>Estimasi (SGD):</span>
+                                    <span>Estimation (SGD):</span>
                                     <span id="summaryTotalSGD">~ SGD 141.41</span>
                                 </div>
                                 <div class="flex justify-between text-xs text-gray-400">
-                                    <span>Estimasi (MYR):</span>
+                                    <span>Estimation (MYR):</span>
                                     <span id="summaryTotalMYR">~ MYR 448.33</span>
                                 </div>
                             </div>
