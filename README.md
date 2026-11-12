@@ -446,7 +446,7 @@
                             <!-- Interactive Date Picker (Real-time Dynamic Calendar) -->
                             <div>
                                 <label for="tanggal-reservasi" class="block text-xs font-semibold uppercase text-charcoal mb-2">
-                                    Tanggal Reservasi *
+                                    Reservation Date *
                                 </label>
                                 <input type="date" id="tanggal-reservasi" name="tanggal_reservasi" onchange="onDateChange()" class="w-full bg-cream border border-warmSand rounded-xl p-3 text-sm focus:outline-none focus:border-terracotta font-sans">
                             </div>
@@ -566,7 +566,7 @@
 
                         <button onclick="sendToWhatsapp()" class="w-full py-4 bg-terracotta hover:bg-terracottaDark text-white font-semibold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
                             <i class="fa-brands fa-whatsapp text-xl"></i>
-                            <span>Kirim Booking & Transfer DP via WA</span>
+                            <span>Send bookings & transfers via WhatsApp</span>
                         </button>
 
                         <p class="text-[11px] text-center text-gray-400">
